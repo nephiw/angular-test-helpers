@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "Helper functions for unit testing AngularJS applications",
   "repository": {
-    "type" : "git",
-    "url" : "git@github.com:brianmcd/angular-test-helpers.git"
+    "type": "git",
+    "url": "git@github.com:brianmcd/angular-test-helpers.git"
   },
   "directories": {
     "test": "test"
@@ -15,14 +15,16 @@
   "author": "Brian McDaniel <brianmcd05@gmail.com>",
   "license": "MIT",
   "devDependencies": {
-    "gulp": "^3.8.8",
-    "gulp-jshint": "^1.8.4",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^2.0.0",
+    "jasmine-core": "^2.4.1",
+    "jshint": "^2.9.2",
     "jshint-stylish": "^1.0.0",
-    "karma": "^0.12.23",
-    "karma-chrome-launcher": "^0.1.4",
-    "karma-firefox-launcher": "^0.1.3",
-    "karma-growl-reporter": "^0.1.1",
-    "karma-jasmine": "^0.1.5",
-    "lodash": "^2.4.1"
+    "karma": "~0.13.19",
+    "karma-chrome-launcher": "~0.2.0",
+    "karma-firefox-launcher": "~0.1.6",
+    "karma-growl-reporter": "~0.1.1",
+    "karma-jasmine": "^1.0.2",
+    "lodash": "~3.10.1"
   }
 }
